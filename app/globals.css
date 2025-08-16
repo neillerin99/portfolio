@@ -24,3 +24,9 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer utilities {
+  .hero-gradient {
+    background: radial-gradient(circle at left, #1E3A8A 0%, #000000 60%);
+  }
+}
