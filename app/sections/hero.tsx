@@ -15,7 +15,7 @@ export default function Hero() {
         </p>
       </div>
       <div className="basis-1/2 flex justify-center">
-        <Image width={500} height={500} src={profile} alt="profile" />
+        <Image width={550} height={550} src={profile} alt="profile" />
       </div>
     </section>
   );
