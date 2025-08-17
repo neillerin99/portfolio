@@ -45,9 +45,9 @@
 }
 
 @theme {
-  --font-raleway: "IBM Plex Mono",
+  --font-display: "IBM Plex Mono",
     monospace;
-  --color-primary: #0F172A;
+  --color-primary: #030815;
   --color-accent-blue: #1E3A8A;
   --color-accent-purple: #8B5CF6;
   --color-light-grey: #E5E7EB;
