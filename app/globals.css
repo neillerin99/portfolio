@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -12,6 +13,17 @@
   --font-mono: var(--font-geist-mono);
 }
 
+@theme {
+  --font-raleway: "IBM Plex Mono",
+    monospace;
+  --color-primary: #0F172A;
+  --color-accent-blue: #1E3A8A;
+  --color-acent-purple: #8B5CF6;
+  --color-light-grey: #E5E7EB;
+  --color-muted-grey: #64748B;
+  --shadow-profile: 0 0 20px rgba(59, 130, 246, 0.9), 0 0 40px rgba(59, 130, 246, 0.6);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -22,11 +34,17 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 @layer utilities {
   .hero-gradient {
     background: radial-gradient(circle at left, #1E3A8A 0%, #000000 60%);
+  }
+
+  .hero-gradient-mobile {
+    background: linear-gradient(to right,
+        #3B82F6 0%,
+        #000000 50%,
+        #3B82F6 100%);
   }
 }

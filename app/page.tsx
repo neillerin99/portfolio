@@ -3,8 +3,9 @@ import Hero from "./sections/hero";
 
 export default function Home() {
   return (
-    <div className="font-sans flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen">
       <Hero />
+      <p>Hello Wolr</p>
     </div>
   );
 }
