@@ -1,7 +1,7 @@
 import Image from "next/image";
 import profile from "../../public/hero/profile.png";
 import { Button } from "@/components/ui/button";
-import Wrapper from "@/components/wrapper";
+import Wrapper from "@/components/Wrapper";
 
 export default function Hero() {
   return (
