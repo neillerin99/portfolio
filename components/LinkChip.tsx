@@ -16,7 +16,7 @@ export default function LinkChip({
       target="_blank"
       rel="noopener noreferrer"
       className={cn(
-        "flex items-center gap-2 border-2 border-solid border-accent-blue w-fit py-2.5 px-4 rounded-md shadow-md shadow-accent-blue",
+        "flex items-center gap-2 border border-gray-500 w-fit py-2 px-3 rounded-md shadow-md shadow-accent-blue hover:border-white hover:text-white",
         className
       )}
       {...props}

@@ -8,13 +8,21 @@ export default function About() {
         <h2 className="mt-4 text-2xl sm:text-3xl lg:text-4xl font-semibold">
           About Me
         </h2>
-        <p className="text-gray-400 text-base sm:text-lg lg:text-xl text-justify">
-          Full Stack Web Developer experienced in developing responsive and
-          high-performance web applications. Skilled in frontend and backend
-          development, creating user-friendly interfaces and optimizing
-          performance. Proven track record in building scalable applications
-          with engaging design and functionality.
-        </p>
+        <div className="text-gray-400 text-base sm:text-lg lg:text-xl sm:text-justify space-y-4">
+          <p>
+            I'm a Full Stack Web Developer from the Philippines with a passion
+            for building responsive, high-performance applications that don't
+            just work — they delight users. With experience across both frontend
+            and backend development, I enjoy creating intuitive interfaces while
+            making sure everything runs smoothly behind the scenes.
+          </p>
+          <p>
+            Curious by nature, I'm constantly learning new technologies and
+            refining my craft to stay ahead in the ever-evolving world of web
+            development. My goal is simple: to build software that's functional,
+            engaging, and meaningful.
+          </p>
+        </div>
         <div className="flex flex-row gap-4">
           <LinkChip
             className="text-white hover:text-gray-400"
