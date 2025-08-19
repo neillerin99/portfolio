@@ -5,8 +5,8 @@ export default function About() {
   return (
     <section>
       <Wrapper className="flex flex-col gap-5 text-white py-10">
-        <h2 className="mt-4 text-2xl sm:text-3xl lg:text-4xl font-semibold">
-          About Me
+        <h2 className="mt-4 text-2xl sm:text-3xl lg:text-4xl font-semibold underline decoration-accent-blue underline-offset-10">
+          About
         </h2>
         <div className="text-gray-400 text-base sm:text-lg lg:text-xl sm:text-justify space-y-4">
           <p>
