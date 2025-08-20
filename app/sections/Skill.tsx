@@ -14,6 +14,7 @@ import {
   SiMysql,
   SiNestjs,
   SiNextdotjs,
+  SiNuxtdotjs,
   SiPhp,
   SiPostgresql,
   SiPrisma,
@@ -68,6 +69,10 @@ export default function Skill() {
           <MiniCard>
             <SiNextdotjs fill="#ffffff" size={35} />
             Next.JS
+          </MiniCard>
+          <MiniCard>
+            <SiNuxtdotjs fill="#00DC82" size={35} />
+            Nuxt.JS
           </MiniCard>
           <MiniCard>
             <SiLaravel fill="#FF2D20" size={35} />
