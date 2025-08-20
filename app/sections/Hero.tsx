@@ -24,18 +24,10 @@ export default function Hero() {
             >
               Download Resume
             </a>
-            {/* <Image
-              width={50}
-              height={50}
-              src={
-                "https://devicon-website.vercel.app/api/appwrite/original.svg"
-              }
-              alt="appwrite"
-            /> */}
           </Button>
         </div>
         <div className="basis-1/2 flex justify-center">
-          <div className="relative h-[300px] w-[300px] sm:h-[288px] sm:w-[288px] lg:h-[500px] lg:w-[500px] rounded-full overflow-hidden shadow-profile bg-gradient-to-r from-[#0F172A] via-[#1E3A8A] to-[#312E81]">
+          <div className="relative h-[250px] w-[250px] sm:h-[288px] sm:w-[288px] lg:h-[500px] lg:w-[500px] rounded-full overflow-hidden shadow-profile bg-gradient-to-r from-[#0F172A] via-[#1E3A8A] to-[#312E81]">
             <Image
               src={profile}
               alt="profile"
