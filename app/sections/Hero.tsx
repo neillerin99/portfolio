@@ -27,7 +27,7 @@ export default function Hero() {
           </Button>
         </div>
         <div className="basis-1/2 flex justify-center">
-          <div className="relative h-[250px] w-[250px] sm:h-[288px] sm:w-[288px] lg:h-[500px] lg:w-[500px] rounded-full overflow-hidden shadow-profile bg-gradient-to-r from-[#0F172A] via-[#1E3A8A] to-[#312E81]">
+          <div className="relative h-[250px] w-[250px] sm:h-[288px] sm:w-[288px] lg:h-[500px] lg:w-[500px] rounded-full overflow-hidden shadow-profile bg-gradient-to-r from-[#0F172A] via-[#1E3A8A] to-[#312E81] animate-gradient">
             <Image
               src={profile}
               alt="profile"
