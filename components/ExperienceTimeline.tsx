@@ -23,7 +23,7 @@ export default function ExperienceTimeline({
       <div className={cn(" text-gray-300 mb-4", isLastChild && "mb-0")}>
         <p>{role}</p>
         <p>{date}</p>
-        <ul className="list-disc list-inside text-gray-400 text-md mt-2">
+        <ul className="list-disc list-outside text-gray-400 text-md mt-2 px-4">
           {descriptions.map((description: string, index: number) => (
             <li key={index}>{description}</li>
           ))}
