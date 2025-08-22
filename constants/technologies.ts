@@ -3,7 +3,7 @@ export enum Technologies {
     REACTJS = 'reactjs',
     LARAVEL = 'laravel',
     NESTJS = 'nestjs',
-    NUXT = 'nuxt',
+    NUXT = 'nuxtjs',
     GIT = 'git',
     TYPESCRIPT = 'typescript',
     JAVASCRIPT = 'javascript',

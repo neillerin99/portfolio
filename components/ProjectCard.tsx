@@ -1,7 +1,4 @@
-import { Technologies } from "@/constants/technologies";
 import techMapper from "@/lib/tech-mapper";
-import { BsBook } from "react-icons/bs";
-import { SiGit, SiNextdotjs } from "react-icons/si";
 
 interface ProjectCardProps {
   logo: React.ReactNode;
@@ -23,7 +20,7 @@ export default function ProjectCard({
       </div>
       <div className="p-4">
         <h3 className="text-lg font-semibold">{projectTitle}</h3>
-        <p className="text-gray-400 text-sm">{projectDescription}</p>
+        <p className="text-gray-400 text-sm py-1">{projectDescription}</p>
         <div className="flex gap-2 mt-3 flex-wrap">
           {technologies.map((tech: string, index: number) => {
             const { icon, techName } = techMapper(tech);

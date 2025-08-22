@@ -17,7 +17,7 @@ export default function Hero() {
           <p className="mt-4 text-base sm:text-lg lg:text-xl max-w-2xl">
             I build scalable, responsive, and high-performance web applications.
           </p>
-          <Button className="bg-primary p-6 text-md">
+          <Button className="bg-primary p-6 text-md duration-300 ease-in-out hover:translate-y-1 hover:scale-110">
             <a
               href="/resume/Neil-Lerin-Resume.pdf"
               download="Neil-Lerin-Resume.pdf"
