@@ -5,8 +5,14 @@ import Wrapper from "@/components/Wrapper";
 
 export default function Hero() {
   return (
-    <section className="h-screen bg-[radial-gradient(circle_at_left,_#1E3A8A_0%,_#000000_60%)]">
-      <Wrapper className="flex flex-col sm:flex-row items-center justify-between gap-5 text-white h-full">
+    <section className="h-screen bg-[#0f172a]">
+      <div
+        className="absolute inset-0 z-0"
+        style={{
+          backgroundImage: `radial-gradient(circle 600px at 50% 50%, rgba(59,130,246,0.3), transparent)`,
+        }}
+      />
+      <Wrapper className="flex flex-col sm:flex-row items-center justify-between gap-5 text-white h-full relative">
         <div className="flex flex-col basis-1/2 items-center justify-center text-center gap-5">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             Hi, I'm Neil Edriane Lerin
