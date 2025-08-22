@@ -19,11 +19,11 @@ export default function ExperienceTimeline({
       <div className="text-lg bg-black border-2 border-accent-blue w-7 h-7 absolute top-0 -left-4  rounded-full flex items-center justify-center">
         <BsCode size={20} />
       </div>
-      <h3 className="sm:text-2xl lg:text-xl font-semibold mb-2">{name}</h3>
+      <h3 className="sm:text-lg lg:text-2xl font-semibold mb-2">{name}</h3>
       <div className={cn(" text-gray-300 mb-4", isLastChild && "mb-0")}>
         <p>{role}</p>
         <p>{date}</p>
-        <ul className="list-disc list-inside text-gray-400 text-md mt-2">
+        <ul className="list-disc list-outside text-gray-400 text-md mt-2 px-4 sm:text-justify text-left">
           {descriptions.map((description: string, index: number) => (
             <li key={index}>{description}</li>
           ))}

@@ -6,7 +6,7 @@ import { Experience as ExperienceModel } from "@/models/experience";
 export default function Experience() {
   return (
     <section>
-      <Wrapper className="flex flex-col gap-5 text-white py-10">
+      <Wrapper className="flex flex-col gap-5 text-white">
         <h2 className="mt-4 text-2xl sm:text-3xl lg:text-4xl font-semibold underline decoration-accent-blue underline-offset-10">
           Experience
         </h2>
