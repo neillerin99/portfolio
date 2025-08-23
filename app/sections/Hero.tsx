@@ -16,7 +16,7 @@ export default function Hero() {
         <EnterAnimation className="flex flex-col sm:flex-row items-center justify-between gap-5 text-white h-full relative ">
           <div className="flex flex-col basis-1/2 items-center justify-center text-center gap-5">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold">
-              Hi, I'm Neil Edriane Lerin
+              Hi, I'm Neil Edriane Lerin.
             </h1>
             <h2 className="mt-4 text-2xl sm:text-3xl lg:text-4xl font-semibold">
               Full Stack Web Developer
