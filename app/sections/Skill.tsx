@@ -39,7 +39,7 @@ export default function Skill() {
             experience. I thrive on collaboration and continuous learning,
             making sure every project I work on is efficient and impactful.
           </p>
-          <SkillSet title={"{ Programming Languages }"}>
+          <SkillSet title={"Programming Languages"}>
             <MiniCard>
               <SiJavascript fill="#F7DF1E" size={30} />
               Javascript
@@ -53,7 +53,7 @@ export default function Skill() {
               PHP
             </MiniCard>
           </SkillSet>
-          <SkillSet title={"{ Databases }"}>
+          <SkillSet title={"Databases"}>
             <MiniCard>
               <SiMysql fill="#4479A1" size={35} />
               MySQL
@@ -63,7 +63,7 @@ export default function Skill() {
               Postgresql
             </MiniCard>
           </SkillSet>
-          <SkillSet title={"{ Frameworks & Libraries }"}>
+          <SkillSet title={"Frameworks & Libraries"}>
             <MiniCard>
               <SiReact fill="#61DAFB" size={30} />
               React
@@ -101,7 +101,7 @@ export default function Skill() {
               Redux
             </MiniCard>
           </SkillSet>
-          <SkillSet title={"{ Web Technologies }"}>
+          <SkillSet title={"Web Technologies"}>
             <MiniCard>
               <SiHtml5 fill="#E34F26" size={35} />
               HTML
@@ -111,7 +111,7 @@ export default function Skill() {
               CSS
             </MiniCard>
           </SkillSet>
-          <SkillSet title={"{ Tools & Concepts }"}>
+          <SkillSet title={"Tools & Concepts"}>
             <MiniCard>
               <SiGit fill="#F05032" size={35} />
               Git
