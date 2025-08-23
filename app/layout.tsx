@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Footer from "./sections/Footer";
 
 export const metadata: Metadata = {
   title: "Neil Edriane Lerin | Portoflio",
@@ -13,7 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`antialiased font-display`}>{children}</body>
+      <body className={`antialiased font-display`}>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

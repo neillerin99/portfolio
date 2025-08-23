@@ -5,7 +5,7 @@ import { SiGithub, SiLinkedin } from "react-icons/si";
 
 export default function About() {
   return (
-    <section>
+    <section id="about">
       <Wrapper className="flex flex-col gap-5 text-white">
         <h2 className="mt-4 text-2xl sm:text-3xl lg:text-4xl font-semibold underline decoration-accent-blue underline-offset-10">
           About
