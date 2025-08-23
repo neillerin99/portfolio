@@ -87,6 +87,14 @@
     background-size: 200% 200%;
     animation: gradient-move 8s ease infinite;
   }
+
+  @media (max-height: 600px) {
+    .min-h-small {
+      height: auto !important;
+      min-height: 100vh;
+      /* still ensures at least full screen */
+    }
+  }
 }
 
 :root {
