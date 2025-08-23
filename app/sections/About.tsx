@@ -25,7 +25,7 @@ export default function About() {
             engaging, and meaningful.
           </p>
         </div>
-        <div className="flex flex-row gap-4 sm:justify-start justify-between">
+        <div className="flex flex-row gap-4 sm:justify-start justify-between flex-wrap">
           <LinkChip
             className="text-white hover:text-gray-400"
             href="https://github.com/neillerin99"
