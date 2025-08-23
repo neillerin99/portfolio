@@ -5,7 +5,7 @@ import Wrapper from "@/components/Wrapper";
 
 export default function Hero() {
   return (
-    <section className="h-screen bg-[#0f172a]">
+    <section className="h-screen bg-[#0f172a] relative">
       <div
         className="absolute inset-0 z-0"
         style={{

@@ -6,7 +6,7 @@ import { PiChefHat } from "react-icons/pi";
 
 export default function Project() {
   return (
-    <section>
+    <section id="projects">
       <Wrapper className="flex flex-col gap-5 text-white">
         <h2 className="mt-4 text-2xl sm:text-3xl lg:text-4xl font-semibold underline decoration-accent-blue underline-offset-10">
           Projects
@@ -52,7 +52,7 @@ export default function Project() {
           <ProjectCard
             logo={<PiChefHat className="text-white text-5xl" />}
             projectTitle="Restaurant Management System"
-            projectDescription="A system for restaurant owners to create and manage their restaurants, add menus, and generate digital menus to improve customer accessibility and streamline operations."
+            projectDescription="Developed a system for restaurant owners to create and manage their restaurants, add menus, and generate digital menus to improve customer accessibility and streamline operations."
             technologies={[
               "nextjs",
               "nestjs",
@@ -68,7 +68,7 @@ export default function Project() {
           />
           <ProjectCard
             logo={<BiSticker className="text-white text-5xl" />}
-            projectTitle="Sticker E-commerce Web Ap"
+            projectTitle="Sticker E-commerce Web App"
             projectDescription="Sticker e-commerce website with user storefront and admin order management, maintained and enhanced from a legacy codebase."
             technologies={[
               "nuxtjs",

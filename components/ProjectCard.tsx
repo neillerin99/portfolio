@@ -1,10 +1,12 @@
 import techMapper from "@/lib/tech-mapper";
+import { GoLinkExternal } from "react-icons/go";
 
 interface ProjectCardProps {
   logo: React.ReactNode;
   projectTitle: string;
   projectDescription: string;
   technologies: string[];
+  link?: string;
 }
 
 export default function ProjectCard({
@@ -12,6 +14,7 @@ export default function ProjectCard({
   projectTitle,
   projectDescription,
   technologies,
+  link,
 }: ProjectCardProps) {
   return (
     <div className="bg-dark-blue rounded-xl shadow-md overflow-hidden hover:scale-105 hover:shadow-accent-blue transition">
@@ -19,7 +22,15 @@ export default function ProjectCard({
         {logo}
       </div>
       <div className="p-4">
-        <h3 className="text-lg font-semibold">{projectTitle}</h3>
+        <div className="flex justify-between items-center">
+          <h3 className="text-lg font-semibold">{projectTitle}</h3>
+          {link && (
+            <a href={link} target="_blank">
+              <GoLinkExternal fill="#ffffff" size={20} />
+            </a>
+          )}
+        </div>
+
         <p className="text-gray-400 text-sm py-1">{projectDescription}</p>
         <div className="flex gap-2 mt-3 flex-wrap">
           {technologies.map((tech: string, index: number) => {
