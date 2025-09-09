@@ -14,8 +14,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`antialiased font-display`}>
-        {children}
+      <body className={`antialiased font-display flex flex-col min-h-screen`}>
+        <div className="flex-1">{children}</div>
         <Footer />
       </body>
     </html>

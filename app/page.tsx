@@ -7,7 +7,7 @@ import SlideAnimation from "@/components/motion/SlideAnimation";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen mb-10">
+    <div className="flex flex-col flex-1 mb-10">
       <Hero />
       <div className="flex flex-col gap-10 pt-8">
         <About />
