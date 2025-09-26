@@ -7,7 +7,6 @@ import { Experience as ExperienceModel } from "@/models/experience";
 export default function Experience() {
   return (
     <SlideAnimation>
-      {" "}
       <section id="experience">
         <Wrapper className="flex flex-col gap-5 text-white">
           <h2 className="mt-4 text-2xl sm:text-3xl lg:text-4xl font-semibold underline decoration-accent-blue underline-offset-10">

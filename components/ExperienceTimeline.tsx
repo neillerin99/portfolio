@@ -1,9 +1,9 @@
 import { cn } from "@/lib/utils";
 import { Experience } from "@/models/experience";
 import { BsCode } from "react-icons/bs";
+import Image from "next/image";
 
 interface ExperienceTimelineProps extends Experience {
-  //  Add extra props
   isLastChild?: boolean;
 }
 
@@ -12,6 +12,7 @@ export default function ExperienceTimeline({
   descriptions,
   name,
   role,
+  recognitions,
   isLastChild,
 }: ExperienceTimelineProps) {
   return (
@@ -28,6 +29,16 @@ export default function ExperienceTimeline({
             <li key={index}>{description}</li>
           ))}
         </ul>
+        {recognitions?.map((recognition) => (
+          <Image
+            src={recognition}
+            className="mt-4 sm:mx-0 mx-auto cursor-pointer"
+            alt="recognition"
+            width={300}
+            height={300}
+          />
+        ))}
+        {/**/}
       </div>
     </div>
   );
