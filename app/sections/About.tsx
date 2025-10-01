@@ -1,5 +1,6 @@
 import LinkChip from "@/components/LinkChip";
 import SlideAnimation from "@/components/motion/SlideAnimation";
+import { WordRotate } from "@/components/ui/word-rotate";
 import Wrapper from "@/components/Wrapper";
 import { CiMail } from "react-icons/ci";
 import { SiGithub, SiLinkedin } from "react-icons/si";
@@ -12,14 +13,36 @@ export default function About() {
           <h2 className="mt-4 text-2xl sm:text-3xl lg:text-4xl font-semibold underline decoration-accent-blue underline-offset-10">
             About
           </h2>
+          <div className="flex lg:items-center items-start gap-4 text-gray-300 sm:text-2xl lg:text-xl font-semibold lg:flex-row flex-col">
+            <h3>Full Stack Developer</h3>
+            <div className="flex gap-2 items-center">
+              <span className="sm:text-xl lg:text-3xl text-muted-grey">{`[`}</span>
+              <WordRotate
+                words={[
+                  "💼 Working for Glophics",
+                  "🐧 Learning Ubuntu",
+                  "⚛️ Expanding React Knowledge",
+                  "🖥️ Sharpening Laravel Skills",
+                  "🚀 Building Personal Projects",
+                  "🤝 Open for Collaborations",
+                  "💬 Happy to Connect",
+                  "☕ Powered by Coffee",
+                  "🎮 Trying to become Elden Lord",
+                  // "🎓 Pursuing Master's",
+                ]}
+                className="sm:text-2xl lg:text-xl text-gray-300 font-semibold decoration-accent-blue underline-offset-10 underline"
+              />
+              <span className="sm:text-xl lg:text-3xl text-muted-grey">{`]`}</span>
+            </div>
+          </div>
+
           <div className="text-gray-400 text-base sm:text-lg lg:text-xl sm:text-justify space-y-4">
             <p>
-              I'm a Full Stack Web Developer from the Philippines with a passion
-              for building responsive, high-performance applications that don't
-              just work — they delight users. With experience across both
-              frontend and backend development, I enjoy creating intuitive
-              interfaces while making sure everything runs smoothly behind the
-              scenes.
+              Hi! I am Neil from the Philippines! I bring a passion for building
+              responsive, high-performance applications that not only work but
+              also delight users. With experience in both frontend and backend
+              development, I specialize in creating intuitive interfaces while
+              making sure everything runs smoothly behind the scenes.
             </p>
             <p>
               Curious by nature, I'm constantly learning new technologies and
