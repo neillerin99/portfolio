@@ -13,29 +13,6 @@ export default function About() {
           <h2 className="mt-4 text-2xl sm:text-3xl lg:text-4xl font-semibold underline decoration-accent-blue underline-offset-10">
             About
           </h2>
-          <div className="flex lg:items-center items-start gap-4 text-gray-300 sm:text-2xl lg:text-xl font-semibold lg:flex-row flex-col">
-            <h3>Full Stack Developer</h3>
-            <div className="flex gap-2 items-center">
-              <span className="sm:text-xl lg:text-3xl text-muted-grey">{`[`}</span>
-              <WordRotate
-                words={[
-                  "💼 Working for Glophics",
-                  "🐧 Learning Ubuntu",
-                  "⚛️ Expanding React Knowledge",
-                  "🖥️ Sharpening Laravel Skills",
-                  "🚀 Building Personal Projects",
-                  "🤝 Open for Collaborations",
-                  "💬 Happy to Connect",
-                  "☕ Powered by Coffee",
-                  "🎮 Trying to become Elden Lord",
-                  // "🎓 Pursuing Master's",
-                ]}
-                className="sm:text-2xl lg:text-xl text-gray-300 font-semibold decoration-accent-blue underline-offset-10 underline"
-              />
-              <span className="sm:text-xl lg:text-3xl text-muted-grey">{`]`}</span>
-            </div>
-          </div>
-
           <div className="text-gray-400 text-base sm:text-lg lg:text-xl sm:text-justify space-y-4">
             <p>
               Hi! I am Neil from the Philippines! I bring a passion for building
@@ -47,8 +24,8 @@ export default function About() {
             <p>
               Curious by nature, I'm constantly learning new technologies and
               refining my craft to stay ahead in the ever-evolving world of web
-              development. My goal is simple: to build software that's
-              functional, engaging, and meaningful.
+              development. My goal is simple: to build scalable, responsive, and
+              high-performance web applications.
             </p>
           </div>
           <div className="flex flex-row gap-4 sm:justify-start justify-between flex-wrap">
